@@ -35,7 +35,7 @@ struct DropDown: View {
     @Binding var selection: String
     var activeTint: Color
     var inActiveTint: Color
-    var dynamic = false
+    var dynamic = true
 
     /// - View Properties
     @State private var expandView = false
